@@ -2,16 +2,23 @@ html, body{
 	font-family: Arial;
 	margin: 0;
 	background-color: #34b1eb;
+	text-align: center;
 }
 
 header{
 	background-color: #34b1eb;
+	background-image: url('../img/Corey butt 4.jpg');
+	background-repeat: repeat;
 	padding: 20px 40px;
 }
 
 header h1{
 			font-size: 90px;
 			color: white;
+			text-shadow: 0 4px 20px black;
+			margin: 0;
+			text-transform: uppercase;
+			text-align: center;
 }
 
 header img{
@@ -19,6 +26,8 @@ header img{
 	width: 500px;
 	height: 600px;
 	border: 10px solid #eb7a34;
+	box-shadow: 0 10px 20px black;
+	text-align: center;
 }
 
 .content{
@@ -44,9 +53,18 @@ ul{
 	margin: 0;
 }
 
+ol{
+	text-align: center;
+}
+
 a{
 	color: orange;
+	/*background-color: black;*/
 	text-decoration: none;
+}
+
+a:hover{
+	background-color: purple;
 }
 
 footer{
