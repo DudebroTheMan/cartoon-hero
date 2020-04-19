@@ -1,0 +1,70 @@
+html, body{
+	font-family: Arial;
+	margin: 0;
+	background-color: #34b1eb;
+}
+
+header{
+	background-color: #34b1eb;
+	padding: 20px 40px;
+}
+
+header h1{
+			font-size: 90px;
+			color: white;
+}
+
+header img{
+	border-radius: 250px;
+	width: 500px;
+	height: 600px;
+	border: 10px solid #eb7a34;
+}
+
+.content{
+	max-width: 500px
+	margin: 0 auto;
+	background-color: #34b1eb;
+	padding: 0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 20px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: orange;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #6775bf;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+/*comments
+<header>
+		<img src="img/profile.jpg">
+		<h1>Corey the Corgi</h1>
+	</header>*/
